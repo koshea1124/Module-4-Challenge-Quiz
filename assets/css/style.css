@@ -1,0 +1,242 @@
+/*Global Styling*/
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 10rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 25px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+
+/*Outer Container*/
+.outer-container {
+    padding: 10px;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.timer-bar button{
+    background-color: white;
+    color: rgb(195, 99, 217);
+    font-size: 2rem;
+    text-decoration: none;
+    border:white;
+    cursor: grab;
+    
+}
+
+.timer-bar button:active {
+    cursor: grabbing;
+}
+
+.timer-bar p {
+    float: right;
+    margin-top: 17px;
+}
+
+/* Inner Container*/
+.inner-container {
+    height: 100%;
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 5rem;
+}
+/*Introduction to the Quiz*/
+.quiz-intro {
+    /*display: none;*/
+    margin-bottom: 25vh;
+    margin-left: 5%;
+    margin-right: 5%;   
+}
+
+.quiz-intro p {
+    text-align: center;  
+}
+
+.start-button {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(30, 0, 85);
+    margin-top: 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 5rem;
+    width: 12.5rem;
+}
+
+.start-button:hover {
+    background-color: rgb(195, 99, 217);
+    cursor:grab;
+}
+
+.start-button:active {
+    cursor: grabbing;
+}
+
+.quiz-intro p {
+    font-size: 2.5rem;
+}
+
+/*Quiz Content*/
+main{
+    /* display: none; */
+    margin-bottom: 25vh;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 5rem;
+}
+
+.question-page {
+    display: none;
+}
+
+.question-page ul {
+    list-style: none;
+}
+
+.answer-button {
+    display: block;
+    background-color: rgb(30, 0, 85);
+    margin-top: 25px;
+    color: white;
+    font-size: 2.5rem;
+    text-align: left;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 5rem;
+    width: 35rem; 
+}
+
+.answer-button:hover {
+    background-color: rgb(195, 99, 217);
+    cursor: grab;
+}
+
+.answer-button:active {
+    cursor: grabbing;
+}
+
+.results {
+    display: none;
+}
+
+
+/*Quiz Complete Screen*/
+.finished-screen {
+    display: none;
+}
+.finished-screen p {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+.finished-screen label{
+    font-size: 2.5rem;
+}
+
+.finished-screen input {
+    height: 2.5rem;
+    width: 20rem;
+}
+
+.initials-button {
+    background-color: rgb(30, 0, 85);
+    margin-top: 25px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: 10rem;
+}
+
+.initials-button:hover {
+    background-color: rgb(195, 99, 217);
+    cursor: grab;
+}
+
+.intials-button:active {
+    cursor: grabbing;
+}
+
+
+/*High Scores Page*/
+.high-scores {
+    display: none;
+}
+
+.high-scores ol{
+    background-color: rgb(215, 204, 224);
+    font-size: 2.5rem;
+}
+
+.go-back {
+    background-color: rgb(30, 0, 85);
+    margin-top: 25px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 1px;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: 10rem;
+}
+
+.clear-scores {
+    background-color: rgb(30, 0, 85);
+    margin-top: 25px;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top:10px;
+    margin-left: 1px;
+    border: none;
+    border-radius: 5px;
+    height: 3rem;
+    width: 20rem;
+}
+
+.go-back:hover {
+    background-color: rgb(195, 99, 217);
+    cursor: grab;
+}
+
+.go-back:active {
+    cursor: grabbing;
+}
+
+.clear-scores:hover {
+    background-color: rgb(195, 99, 217);
+    cursor: grab;
+}
+
+.clear-scores:active {
+    cursor: grabbing;
+}
+
